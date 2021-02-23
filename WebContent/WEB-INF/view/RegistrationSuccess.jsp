@@ -33,6 +33,6 @@
 </head>
 <body>
 <h2> Your registration is successful! Try logging in now!</h2>
-<p><a href="${pageContext.request.contextPath}/customer/welcome">Back</a></p>
+<p><a href="${pageContext.request.contextPath}/bank/home">Back</a></p>
 </body>
 </html>

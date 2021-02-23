@@ -34,6 +34,6 @@
 <body>
 <h2> Your transfer failed!</h2>
 <h2>Please enter the correct sender and receiver account number and make sure that your account balance is greater than or equal to the sum you want to transfer!</h2>
-<p><a href="${pageContext.request.contextPath}/bank/transferAmount">Back</a></p>
+<p><a href="${pageContext.request.contextPath}/bank/transfer">Back</a></p>
 </body>
 </html>

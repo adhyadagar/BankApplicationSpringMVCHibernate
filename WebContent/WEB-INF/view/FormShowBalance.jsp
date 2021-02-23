@@ -33,6 +33,6 @@
 </head>
 <body>
 <h2> Your current balance is ${balance}</h2>
-<p><a href="${pageContext.request.contextPath}/customer/operations">Back</a></p>
+<p><a href="${pageContext.request.contextPath}/bank/operations">Back</a></p>
 </body>
 </html>

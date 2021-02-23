@@ -33,7 +33,7 @@
 </head>
 <body>
 <h3> Your login attempt is unsuccessful! Check your user name and password and try logging in again or if not a user register as new user</h3>
-<p><a href="${pageContext.request.contextPath}/customer/login">Login</a></p>
-<p><a href="${pageContext.request.contextPath}/customer/register">Register as new user</a></p>
+<p><a href="${pageContext.request.contextPath}/bank/login">Login</a></p>
+<p><a href="${pageContext.request.contextPath}/bank/register">Register as new user</a></p>
 </body>
 </html>

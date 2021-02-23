@@ -42,7 +42,7 @@ tr:nth-child(odd) {
   </tr>
 </table>
 <div style="clear; both;"></div>
-			<p><a href="${pageContext.request.contextPath}/customer/welcome">Back</a></p>
+			<p><a href="${pageContext.request.contextPath}/bank/home">Back</a></p>
 </body>
 </html>
 

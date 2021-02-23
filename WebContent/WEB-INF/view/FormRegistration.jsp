@@ -77,8 +77,8 @@
 				</table>
 			</form:form>
 			<div style="clear; both;"></div>
-			<p><a href="${pageContext.request.contextPath}/customer/welcome">Back</a></p>
-			<p> Already a user? <a href = "${pageContext.request.contextPath}/customer/login"> Sign In</a> </p>
+			<p><a href="${pageContext.request.contextPath}/bank/home">Back</a></p>
+			<p> Already a user? <a href = "${pageContext.request.contextPath}/bank/login"> Sign In</a> </p>
 		</div>
 	</body>
 </html>

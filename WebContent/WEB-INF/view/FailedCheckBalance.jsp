@@ -33,6 +33,6 @@
 </head>
 <body>
 <h2> Your check balance operation failed! Please enter the correct account number!</h2>
-<p><a href="${pageContext.request.contextPath}/customer/checkBalance">Back</a></p>
+<p><a href="${pageContext.request.contextPath}/bank/checkBalance">Back</a></p>
 </body>
 </html>
