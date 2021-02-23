@@ -1,0 +1,38 @@
+I have created 3 tables in mySQL for this project -
+
+1. BankUser
+
+CREATE TABLE BankUser (
+id bigint(11) NOT NULL AUTO_INCREMENT,
+first_name varchar(45) DEFAULT NULL,
+last_name varchar(45) DEFAULT NULL,
+email varchar(45) DEFAULT NULL,
+mobile bigint(10) DEFAULT NULL,
+user_name varchar(45) DEFAULT NULL,
+password varchar(45) DEFAULT NULL,
+PRIMARY KEY (id) );
+
+
+2. Account 
+
+CREATE TABLE account (
+user_name varchar(45) DEFAULT NULL,
+user_id bigint(11) not null,
+account_number bigint(10) primary key,
+account_type varchar(45) not null,
+balance DECIMAL(10,2) DEFAULT NULL,
+foreign key(user_id) references BankUser(id));
+
+
+3. Transaction 
+
+CREATE TABLE transaction (
+trans_id bigint(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+user_name varchar(45) DEFAULT NULL,
+account_number bigint(10) DEFAULT NULL,
+balance DECIMAL(10,2) DEFAULT NULL,
+operation varchar(45) DEFAULT NULL,
+new_balance DECIMAL(10,2) DEFAULT NULL,
+time_details timestamp DEFAULT current_timestamp,
+foreign key(account_number) references account(account_number) on delete cascade
+);
